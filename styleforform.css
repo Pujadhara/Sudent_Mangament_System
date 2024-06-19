@@ -1,0 +1,133 @@
+*{
+    margin:0%;
+    padding:0%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .heading {
+    
+    padding: 20px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .address span{
+    font-size: 12px;
+  }
+  
+  .heading .log {
+    display: flex;
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .image-size {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px; 
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rvscet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 5px; 
+  }
+  .rvscet p {
+    margin: 0;
+    font-size: 1.5em; /* Adjust font size as needed */
+  }
+  
+  .rvscet span {
+    font-size: 1em; /* Adjust font size as needed */
+    color: #666; /* Adjust color as needed */
+  }
+  
+  
+  .heading .address {
+    display: inline-block;
+  }
+  
+  .allInformation {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .addmissionForm {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .basicInformation {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admissionform > div {
+    margin-bottom: 15px;
+  }
+  
+  .nameBox, .nameBox2, .streetAddress, .cityType {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .nameTypefirst, .nameTypeLast, .cityname {
+    flex: 0 0 48%;
+    margin-bottom: 10px;
+  }
+  
+  .inputText {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } 
+  
+  .nameBox span, .nameBox2 span, .cityType span, .streetAddress span {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

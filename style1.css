@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+    color: white;
+    line-height: 70px;
+}
+
+ul{
+    position:relative;
+    float: right;
+    margin-right: 20px;
+}
+ 
+ul li{
+
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+ padding:25px;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+button:hover{
+    background: #003333;
+    color: #fff;
+}
+
+.main_img{
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
+}
+
+.img_text{
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    color: #fff;
+    /* background-color: #377019; */
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 73px;
+
+}
+
+.welcome_img{
+    width: 139%;
+    height: 271px;
+}
+
+.container{
+    padding-top: 70px;
+    display:flex;
+    flex-direction:column;
+}
+.col-md-4{
+    padding:25px;
+    /* width:50%; */
+}
+.col-md-8{
+    padding :25px;
+    width:50%;
+}
+.row{
+    display:inline-flex;
+    justify-content:space-evenly;
+    
+} 
+
+.col-md-8 p{
+font-size: 18px;
+}
+.col-md-8  h1{
+    padding-bottom:10px;
+}
+.row2{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+}
+.ourTeachers{
+    padding:30px 0px ;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.teacher{
+   
+   
+    /* padding: 14px 67px; */
+    max-width: 293px;
+   
+  
+
+}
+.teacher p{
+    padding-top:15px;
+}
+.mcaImage{
+    width:293px;
+    height:168px;
+
+}
+.row3{
+    display: flex;
+    padding-top:55px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.inputText{
+width: 40%;
+margin-top:10px;
+height:25px;
+border-radius:25px;
+text-align: left;
+padding:8px;
+border: 2px solid black;
+}
+ 
+.labelText{
+    display: inline-block;
+    width: 100px;
+    text-align:right;
+    padding:10px;
+    font-size: 22px;
+}
+.addmissionForm{
+    padding:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 30px;
+}
+.inputTextMessage{
+    width: 40%;
+    margin-top: 10px;
+height:86px;
+border-radius:25px;
+text-align: left;
+padding:8px;
+border: 2px solid black;
+
+}
+.applyfor{
+    position:relative;
+    left:4%;
+    width:15%;
+    
+    border-radius:10px;
+}
+
+.heading .log {
+    display: flex;
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .image-size {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px; 
+  }
